@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+body {
+  background-color: #2a2a2a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  width: 50px;
+  height: 30px;
+  background-color: #363636;
+  box-shadow: 0 0 1.5px 0 #ffffff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header input {
+  border: none;
+  color: inherit;
+  background-color: inherit;
+}
+
+.header input::placeholder {
+  color: inherit;
+}
+
+.header * {
+  font-size: 1.4rem;
+}
+
+.home,
+.settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home {
+  margin-left: 1.4rem;
+}
+
+.settings {
+  margin-right: 1.4rem;
+}
+
+.save-button {
+  background-color: #006dcc;
+}
+
+textarea {
+  background-color: #2a2a2a;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  color: inherit;
+}
