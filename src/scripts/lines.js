@@ -1,8 +1,7 @@
 const lines = document.querySelector(".lines");
 const textarea = document.querySelector("textarea");
 
-textarea.focus();
-let numberOfLines = 0;
+let numberOfLines = 1;
 
 textarea.addEventListener("keydown", (event) => {
   const paragraph = document.createElement("p");
@@ -20,6 +19,4 @@ textarea.addEventListener("keydown", (event) => {
     paragraph.textContent = numberOfLines;
     lines.removeChild(lines.lastChild);
   }
-
-  console.log(numberOfLines);
 });

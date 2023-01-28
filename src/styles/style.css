@@ -70,10 +70,15 @@ a {
 
 .paste {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: max-content 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+
+.lines {
+  padding: 0.5rem;
+  border-right: 0.1px solid black;
 }
 
 textarea {
@@ -81,4 +86,17 @@ textarea {
   padding: 0;
   border: none;
   color: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+p {
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #8f8f8f;
 }
