@@ -35,6 +35,7 @@ a {
   border: none;
   color: inherit;
   background-color: inherit;
+  border-radius: 3px;
 }
 
 .header input::placeholder {
