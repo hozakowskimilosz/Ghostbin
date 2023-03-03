@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: #ffffff;
   min-height: 100vh;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -18,10 +18,15 @@ a {
   background-color: #363636;
   box-shadow: 0 0 1.5px 0 #ffffff;
   border-radius: 3px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 150ms;
+}
+
+a:hover,
+a:focus {
+  color: #9a9a9a;
 }
 
 .header {
